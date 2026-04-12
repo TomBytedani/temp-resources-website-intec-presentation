@@ -29,6 +29,12 @@ export const sections: Section[] = [
         description:
           "Chatbot AI di OpenAI, uno degli strumenti più diffusi al mondo.",
       },
+      {
+        title: "Claude Code Docs",
+        url: "https://code.claude.com/docs/en/overview",
+        description:
+          "Documentazione per far lavorare l'AI in locale e con strumenti potenziati.",
+      }
     ],
   },
   {
@@ -39,8 +45,14 @@ export const sections: Section[] = [
         title: "3Blue1Brown – Neural Networks",
         url: "https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi",
         description:
-          "Serie YouTube che spiega le reti neurali con animazioni intuitive.",
+          "Serie YouTube che spiega le reti neurali con animazioni intuitive, per chi vuole capire come funziona l'AI dietro alle quinte.",
       },
+      {
+        title: "The AI Advantage",
+        url: "https://www.youtube.com/@aiadvantage",
+        description:
+          "Canale Youtube con spiegazioni per principianti su come usare questi strumenti",
+      }
     ],
   },
   {
