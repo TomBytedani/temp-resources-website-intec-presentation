@@ -22,13 +22,13 @@ export const sections: Section[] = [
         title: "ChatGPT",
         url: "https://chatgpt.com",
         description:
-          "Assistente AI di OpenAI. Utile per scrittura, analisi, studio, riassunti, ragionamento, dati e attività quotidiane.",
+          "Assistente AI di OpenAI. Modello attualmente più intelligente e con forti capacità di ricerca.",
       },
       {
         title: "Claude",
         url: "https://claude.ai",
         description:
-          "Assistente AI di Anthropic. Molto utile per analizzare testi lunghi, documenti, processi e ragionare su problemi complessi.",
+          "Assistente AI di Anthropic. Modelli utili per attività di ufficio e con intelligenza emotiva più alta.",
       },
       {
         title: "Gemini",
@@ -40,7 +40,7 @@ export const sections: Section[] = [
         title: "Perplexity",
         url: "https://www.perplexity.ai",
         description:
-          "Motore di ricerca con AI che cita le fonti. Utile per fare ricerche rapide e confrontare informazioni.",
+          "Motore di ricerca con AI che cita le fonti. Utile per fare ricerche rapide e confrontare informazioni. Funziona con modelli da diversi laboratori.",
       },
     ],
   },
@@ -49,16 +49,16 @@ export const sections: Section[] = [
     title: "Da dove iniziare",
     resources: [
       {
-        title: "ChatGPT for Work – OpenAI Academy",
-        url: "https://openai.com/academy/chatgpt-for-work/",
-        description:
-          "Raccolta ufficiale di esempi pratici per usare ChatGPT nel lavoro: scrittura, ricerca, analisi dati, coding e flussi operativi.",
-      },
-      {
         title: "AI Fluency: Framework & Foundations – Anthropic",
         url: "https://www.anthropic.com/learn/claude-for-you",
         description:
           "Corso introduttivo gratuito per imparare a collaborare con l’AI in modo efficace, sicuro ed etico.",
+      },
+      {
+        title: "ChatGPT for Work – OpenAI Academy",
+        url: "https://openai.com/academy/chatgpt-for-work/",
+        description:
+          "Raccolta ufficiale di esempi pratici per usare ChatGPT nel lavoro: scrittura, ricerca, analisi dati, coding e flussi operativi.",
       },
       {
         title: "Google Prompting Essentials",
