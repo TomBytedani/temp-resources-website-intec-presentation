@@ -1,3 +1,4 @@
+// File at ./data/resources.ts
 export interface Resource {
   title: string;
   url: string;
@@ -10,7 +11,7 @@ export interface Section {
   resources: Resource[];
 }
 
-export const lastUpdated = "12 aprile 2026";
+export const lastUpdated = "14 maggio 2026";
 
 export const sections: Section[] = [
   {
@@ -18,41 +19,113 @@ export const sections: Section[] = [
     title: "Piattaforme utili",
     resources: [
       {
-        title: "Claude",
-        url: "https://claude.ai",
-        description:
-          "Assistente AI di Anthropic, ideale per analisi, scrittura e ragionamento complesso.",
-      },
-      {
         title: "ChatGPT",
         url: "https://chatgpt.com",
         description:
-          "Chatbot AI di OpenAI, uno degli strumenti più diffusi al mondo.",
+          "Assistente AI di OpenAI. Utile per scrittura, analisi, studio, riassunti, ragionamento, dati e attività quotidiane.",
       },
       {
-        title: "Claude Code Docs",
-        url: "https://code.claude.com/docs/en/overview",
+        title: "Claude",
+        url: "https://claude.ai",
         description:
-          "Documentazione per far lavorare l'AI in locale e con strumenti potenziati.",
-      }
+          "Assistente AI di Anthropic. Molto utile per analizzare testi lunghi, documenti, processi e ragionare su problemi complessi.",
+      },
+      {
+        title: "Microsoft Copilot",
+        url: "https://copilot.microsoft.com",
+        description:
+          "Assistente AI di Microsoft. Interessante per chi lavora spesso con strumenti Microsoft e vuole iniziare con casi d’uso pratici.",
+      },
+      {
+        title: "Gemini",
+        url: "https://gemini.google.com",
+        description:
+          "Assistente AI di Google. Utile per ricerca, scrittura, brainstorming e integrazione con l’ecosistema Google.",
+      },
+      {
+        title: "Perplexity",
+        url: "https://www.perplexity.ai",
+        description:
+          "Motore di ricerca con AI che cita le fonti. Utile per fare ricerche rapide e confrontare informazioni.",
+      },
     ],
   },
   {
-    id: "educativi",
-    title: "Contenuti educativi",
+    id: "iniziare",
+    title: "Da dove iniziare",
     resources: [
       {
-        title: "3Blue1Brown – Neural Networks",
-        url: "https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi",
+        title: "ChatGPT for Work – OpenAI Academy",
+        url: "https://openai.com/academy/chatgpt-for-work/",
         description:
-          "Serie YouTube che spiega le reti neurali con animazioni intuitive, per chi vuole capire come funziona l'AI dietro alle quinte.",
+          "Raccolta ufficiale di esempi pratici per usare ChatGPT nel lavoro: scrittura, ricerca, analisi dati, coding e flussi operativi.",
       },
       {
-        title: "The AI Advantage",
-        url: "https://www.youtube.com/@aiadvantage",
+        title: "AI Fluency: Framework & Foundations – Anthropic",
+        url: "https://www.anthropic.com/learn/claude-for-you",
         description:
-          "Canale Youtube con spiegazioni per principianti su come usare questi strumenti",
-      }
+          "Corso introduttivo gratuito per imparare a collaborare con l’AI in modo efficace, sicuro ed etico.",
+      },
+      {
+        title: "Google Prompting Essentials",
+        url: "https://www.skills.google/paths/2337/course_templates/1229",
+        description:
+          "Corso introduttivo di Google sul prompting. Utile per imparare a dare istruzioni chiare e costruire una piccola libreria di prompt riutilizzabili.",
+      },
+      {
+        title: "Elements of AI",
+        url: "https://www.elementsofai.com/",
+        description:
+          "Corso gratuito dell’Università di Helsinki pensato per non esperti. Spiega cos’è l’AI, cosa può fare e quali sono i suoi limiti.",
+      },
+      {
+        title: "Generative AI for Everyone – DeepLearning.AI",
+        url: "https://www.deeplearning.ai/courses/generative-ai-for-everyone/",
+        description:
+          "Corso di Andrew Ng per capire come funziona l’AI generativa, cosa può e non può fare, e come usarla nel lavoro quotidiano.",
+      },
+    ],
+  },
+  {
+    id: "prompting",
+    title: "Imparare a scrivere prompt migliori",
+    resources: [
+      {
+        title: "Prompt engineering best practices for ChatGPT – OpenAI",
+        url: "https://help.openai.com/en/articles/10032626-prompt-engineering-best-practices-for-chatgpt",
+        description:
+          "Guida ufficiale OpenAI con buone pratiche per ottenere risposte più utili da ChatGPT.",
+      },
+      {
+        title: "Prompt engineering overview – Anthropic",
+        url: "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview",
+        description:
+          "Guida ufficiale Anthropic sui principi del prompting: chiarezza, esempi, contesto, ruoli e strutturazione delle richieste.",
+      },
+      {
+        title: "Prompting best practices – Claude Docs",
+        url: "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices",
+        description:
+          "Guida più approfondita per chi vuole migliorare i prompt e imparare tecniche come esempi, struttura XML e catene di prompt.",
+      },
+      {
+        title: "Microsoft 365 Copilot – Get started writing prompts",
+        url: "https://support.microsoft.com/en-us/topic/get-started-writing-prompts-in-microsoft-365-copilot-f6c3b467-f07c-4db1-ae54-ffac96184dd5",
+        description:
+          "Guida semplice di Microsoft che spiega come costruire prompt con obiettivo, contesto, aspettative e fonti.",
+      },
+      {
+        title: "Learn Prompting",
+        url: "https://learnprompting.org/",
+        description:
+          "Corso online molto ampio sul prompt engineering. Utile da consultare a pezzi, senza doverlo completare tutto.",
+      },
+      {
+        title: "Prompting Guide – ChatGPT",
+        url: "https://www.promptingguide.ai/it/models/chatgpt",
+        description:
+          "Risorsa in italiano sul prompting per ChatGPT, utile per iniziare con esempi e concetti base.",
+      },
     ],
   },
   {
@@ -60,19 +133,90 @@ export const sections: Section[] = [
     title: "Strumenti per il lavoro quotidiano",
     resources: [
       {
-        title: "Claude per Excel",
+        title: "ChatGPT – Analisi file e dati",
+        url: "https://chatgpt.com",
+        description:
+          "Può aiutare ad analizzare Excel, CSV, documenti, procedure, report, ticket, email e testi lunghi.",
+      },
+      {
+        title: "Claude – Analisi documenti",
         url: "https://claude.ai",
         description:
-          "Usa Claude per analizzare fogli Excel, generare formule e automatizzare report.",
+          "Molto utile per caricare documenti, estrarre informazioni, confrontare versioni, generare checklist e riassumere processi.",
+      },
+      {
+        title: "NotebookLM",
+        url: "https://notebooklm.google.com",
+        description:
+          "Strumento Google per studiare e interrogare documenti caricati dall’utente. Utile per manuali, procedure e materiali formativi.",
+      },
+      {
+        title: "OpenAI Academy – Prompting",
+        url: "https://academy.openai.com/public/clubs/work-users-ynjqu/resources/prompting",
+        description:
+          "Risorsa pratica con esempi di prompt per attività lavorative, utile per trasformare casi reali in richieste efficaci.",
+      },
+      {
+        title: "OpenAI Academy – ChatGPT for any role",
+        url: "https://academy.openai.com/public/clubs/work-users-ynjqu/resources/chatgpt-for-any-role",
+        description:
+          "Esempi di casi d’uso e prompt adattabili a diversi ruoli lavorativi.",
       },
     ],
   },
   {
-    id: "letture",
-    title: "Letture consigliate",
-    resources: [],
-    // Lascia questa sezione vuota per nasconderla automaticamente.
-    // Aggiungi risorse qui quando sei pronto.
+    id: "capire-ai",
+    title: "Capire meglio l’AI senza diventare tecnici",
+    resources: [
+      {
+        title: "AI for Everyone – DeepLearning.AI",
+        url: "https://www.deeplearning.ai/courses/ai-for-everyone/",
+        description:
+          "Corso non tecnico per capire termini come machine learning, reti neurali e data science, e riconoscere opportunità concrete in azienda.",
+      },
+      {
+        title: "Elements of AI – Introduction to AI",
+        url: "https://course.elementsofai.com/",
+        description:
+          "Percorso gratuito e accessibile su concetti base, machine learning, reti neurali e implicazioni dell’AI.",
+      },
+      {
+        title: "3Blue1Brown – Neural Networks",
+        url: "https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi",
+        description:
+          "Serie video molto visuale sulle reti neurali. Più tecnica, ma ottima per chi vuole capire cosa c’è dietro.",
+      },
+      {
+        title: "Crash Course AI",
+        url: "https://www.youtube.com/playlist?list=PL8dPuuaLjXtN-vJ9va-USEW0q2jSgZ_QU",
+        description:
+          "Serie YouTube introduttiva sull’intelligenza artificiale, con spiegazioni accessibili e tanti esempi.",
+      },
+    ],
+  },
+  {
+    id: "sicurezza",
+    title: "Uso responsabile e controllo umano",
+    resources: [
+      {
+        title: "AI Fluency – Anthropic",
+        url: "https://anthropic.skilljar.com/ai-fluency-framework-foundations",
+        description:
+          "Corso gratuito su come usare l’AI in modo efficace, efficiente, etico e sicuro.",
+      },
+      {
+        title: "OpenAI – Prompt engineering best practices",
+        url: "https://help.openai.com/en/articles/10032626-prompt-engineering-best-practices-for-chatgpt",
+        description:
+          "Oltre al prompting, aiuta a capire l’importanza di istruzioni chiare, contesto, verifica e iterazione.",
+      },
+      {
+        title: "Microsoft Copilot – Prompt basics",
+        url: "https://support.microsoft.com/en-us/topic/get-started-writing-prompts-in-microsoft-365-copilot-f6c3b467-f07c-4db1-ae54-ffac96184dd5",
+        description:
+          "Risorsa utile per imparare a dare contesto, specificare le fonti e controllare meglio l’output dell’AI.",
+      },
+    ],
   },
   {
     id: "comunita",
@@ -82,7 +226,37 @@ export const sections: Section[] = [
         title: "Hugging Face",
         url: "https://huggingface.co",
         description:
-          "Hub per modelli open-source, dataset e discussioni sulla ricerca AI.",
+          "Hub per modelli open-source, dataset e demo. Più tecnico, ma utile per vedere cosa esiste nel mondo AI.",
+      },
+      {
+        title: "The Batch – DeepLearning.AI",
+        url: "https://www.deeplearning.ai/the-batch/",
+        description:
+          "Newsletter settimanale per seguire sviluppi importanti nel mondo AI senza dover leggere decine di fonti.",
+      },
+      {
+        title: "The AI Advantage",
+        url: "https://www.youtube.com/@aiadvantage",
+        description:
+          "Canale YouTube con tutorial pratici su strumenti AI, aggiornamenti e casi d’uso per utenti non necessariamente tecnici.",
+      },
+      {
+        title: "OpenAI Blog",
+        url: "https://openai.com/news/",
+        description:
+          "Aggiornamenti ufficiali su nuovi modelli, funzionalità e casi d’uso OpenAI.",
+      },
+      {
+        title: "Anthropic News",
+        url: "https://www.anthropic.com/news",
+        description:
+          "Aggiornamenti ufficiali su Claude, sicurezza AI, ricerca e nuovi strumenti Anthropic.",
+      },
+      {
+        title: "Google AI Blog",
+        url: "https://blog.google/technology/ai/",
+        description:
+          "Aggiornamenti Google su AI, prodotti, ricerca e applicazioni pratiche.",
       },
     ],
   },
