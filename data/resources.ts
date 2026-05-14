@@ -78,6 +78,24 @@ export const sections: Section[] = [
         description:
           "Corso di Andrew Ng per capire come funziona l’AI generativa, cosa può e non può fare, e come usarla nel lavoro quotidiano.",
       },
+      {
+        title: "AI Agent harness 1 - Codex",
+        url: "https://developers.openai.com/codex/quickstart",
+        description:
+          "Documentazione per come scaricare ed iniziare a giocare con harness di agenti IA in locale come Codex",
+      },
+      {
+        title: "AI Agent harness 2 - Claude Code",
+        url: "https://code.claude.com/docs/en/quickstart",
+        description:
+          "Documentazione per come scaricare ed iniziare a giocare con harness di agenti IA in locale come Claude Code",
+      },
+      {
+        title: "AI Agent harness 3 - Gemini Antigravity",
+        url: "https://codelabs.developers.google.com/getting-started-google-antigravity#0",
+        description:
+          "Più facile per inziare. Guida per come scaricare ed iniziare ad utilizzare Antigravity, che unisce gli agenti in locale con un IDE come VS Code",
+      },
     ],
   },
   {
