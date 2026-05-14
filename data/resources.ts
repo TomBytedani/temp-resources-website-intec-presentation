@@ -31,12 +31,6 @@ export const sections: Section[] = [
           "Assistente AI di Anthropic. Molto utile per analizzare testi lunghi, documenti, processi e ragionare su problemi complessi.",
       },
       {
-        title: "Microsoft Copilot",
-        url: "https://copilot.microsoft.com",
-        description:
-          "Assistente AI di Microsoft. Interessante per chi lavora spesso con strumenti Microsoft e vuole iniziare con casi d’uso pratici.",
-      },
-      {
         title: "Gemini",
         url: "https://gemini.google.com",
         description:
@@ -109,12 +103,6 @@ export const sections: Section[] = [
           "Guida più approfondita per chi vuole migliorare i prompt e imparare tecniche come esempi, struttura XML e catene di prompt.",
       },
       {
-        title: "Microsoft 365 Copilot – Get started writing prompts",
-        url: "https://support.microsoft.com/en-us/topic/get-started-writing-prompts-in-microsoft-365-copilot-f6c3b467-f07c-4db1-ae54-ffac96184dd5",
-        description:
-          "Guida semplice di Microsoft che spiega come costruire prompt con obiettivo, contesto, aspettative e fonti.",
-      },
-      {
         title: "Learn Prompting",
         url: "https://learnprompting.org/",
         description:
@@ -133,22 +121,10 @@ export const sections: Section[] = [
     title: "Strumenti per il lavoro quotidiano",
     resources: [
       {
-        title: "ChatGPT – Analisi file e dati",
-        url: "https://chatgpt.com",
-        description:
-          "Può aiutare ad analizzare Excel, CSV, documenti, procedure, report, ticket, email e testi lunghi.",
-      },
-      {
-        title: "Claude – Analisi documenti",
-        url: "https://claude.ai",
-        description:
-          "Molto utile per caricare documenti, estrarre informazioni, confrontare versioni, generare checklist e riassumere processi.",
-      },
-      {
         title: "NotebookLM",
         url: "https://notebooklm.google.com",
         description:
-          "Strumento Google per studiare e interrogare documenti caricati dall’utente. Utile per manuali, procedure e materiali formativi.",
+          "Oltre ai già citati ChatGPT e Claude, NotebookLM è uno strumento Google per studiare e interrogare documenti caricati dall’utente. Utile per manuali, procedure e materiali formativi.",
       },
       {
         title: "OpenAI Academy – Prompting",
@@ -203,18 +179,6 @@ export const sections: Section[] = [
         url: "https://anthropic.skilljar.com/ai-fluency-framework-foundations",
         description:
           "Corso gratuito su come usare l’AI in modo efficace, efficiente, etico e sicuro.",
-      },
-      {
-        title: "OpenAI – Prompt engineering best practices",
-        url: "https://help.openai.com/en/articles/10032626-prompt-engineering-best-practices-for-chatgpt",
-        description:
-          "Oltre al prompting, aiuta a capire l’importanza di istruzioni chiare, contesto, verifica e iterazione.",
-      },
-      {
-        title: "Microsoft Copilot – Prompt basics",
-        url: "https://support.microsoft.com/en-us/topic/get-started-writing-prompts-in-microsoft-365-copilot-f6c3b467-f07c-4db1-ae54-ffac96184dd5",
-        description:
-          "Risorsa utile per imparare a dare contesto, specificare le fonti e controllare meglio l’output dell’AI.",
       },
     ],
   },
